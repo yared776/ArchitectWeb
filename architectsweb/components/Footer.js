@@ -5,7 +5,6 @@ import Container from '@mui/material/Container';
 import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 import FacebookIcon from '@mui/icons-material/GitHub';
@@ -21,7 +20,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" mt={1}>
       {'Copyright © '}
-      <Link href="https://mui.com/">Sitemark&nbsp;</Link>
+      <Link href="https://architectsgmr.com/">G.M.R Architects&nbsp;</Link>
       {new Date().getFullYear()}
     </Typography>
   );
@@ -71,24 +70,7 @@ export default function Footer() {
             <Typography variant="body2" color="text.secondary" mb={2}>
               Subscribe to our newsletter for weekly updates and promotions.
             </Typography>
-            <Stack direction="row" spacing={1} useFlexGap>
-              <TextField
-                id="outlined-basic"
-                hiddenLabel
-                size="small"
-                variant="outlined"
-                fullWidth
-                aria-label="Enter your email address"
-                placeholder="Your email address"
-                inputProps={{
-                  autoComplete: 'off',
-                  'aria-label': 'Enter your email address',
-                }}
-              />
-              <Button variant="contained" color="primary" sx={{ flexShrink: 0 }}>
-                Subscribe
-              </Button>
-            </Stack>
+            
           </Box>
         </Box>
         <Box
