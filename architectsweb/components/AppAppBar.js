@@ -95,7 +95,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Features
+                    About Us
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -103,7 +103,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Testimonials
+                    Projects
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -111,7 +111,15 @@ function AppAppBar({ mode, toggleColorMode }) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Highlights
+                    Services
+                  </Typography>
+                </MenuItem>
+                <MenuItem
+                  onClick={() => scrollToSection('pricing')}
+                  sx={{ py: '6px', px: '12px' }}
+                >
+                  <Typography variant="body2" color="text.primary">
+                    Urban Planning
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -169,13 +177,16 @@ function AppAppBar({ mode, toggleColorMode }) {
                     <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
                   </Box>
                   <MenuItem onClick={() => scrollToSection('features')}>
-                    Features
+                    About Us
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('testimonials')}>
-                    Testimonials
+                    Projects
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('highlights')}>
-                    Highlights
+                    Services
+                  </MenuItem>
+                  <MenuItem onClick={() => scrollToSection('pricing')}>
+                   Urban Planning
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('pricing')}>
                     Contact Us

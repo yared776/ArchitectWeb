@@ -100,7 +100,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Features
+                    About Us
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -108,7 +108,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Testimonials
+                    Projects
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -116,7 +116,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Highlights
+                    Services
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -124,7 +124,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Pricing
+                    Urban Planning
                   </Typography>
                 </MenuItem>
                 <MenuItem
@@ -132,7 +132,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   sx={{ py: '6px', px: '12px' }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    FAQ
+                    Contact Us
                   </Typography>
                 </MenuItem>
               </Box>
