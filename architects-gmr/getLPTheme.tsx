@@ -1,3 +1,5 @@
+'use client';
+
 import type {} from '@mui/material/themeCssVarsAugmentation';
 import { createTheme, ThemeOptions, alpha } from '@mui/material/styles';
 import { PaletteMode } from '@mui/material';
