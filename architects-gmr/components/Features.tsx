@@ -119,12 +119,10 @@ export default function Features() {
                   backgroundImage: 'var(--items-imageDark)',
                 }),
               })}
-              style={
-                {
-                  '--items-imageLight': items[selectedItemIndex].imageLight,
-                  '--items-imageDark': items[selectedItemIndex].imageDark,
-                } as any
-              }
+              style={{
+                '--items-imageLight': items[selectedItemIndex].imageLight,
+                '--items-imageDark': items[selectedItemIndex].imageDark,
+              }}
             />
             <Box sx={{ px: 2, pb: 2 }}>
               <Typography
@@ -290,12 +288,10 @@ export default function Features() {
                   backgroundImage: 'var(--items-imageDark)',
                 }),
               })}
-              style={
-                {
-                  '--items-imageLight': items[selectedItemIndex].imageLight,
-                  '--items-imageDark': items[selectedItemIndex].imageDark,
-                } as any
-              }
+              style={{
+                '--items-imageLight': items[selectedItemIndex].imageLight,
+                '--items-imageDark': items[selectedItemIndex].imageDark,
+              }}
             />
           </Card>
         </Grid>

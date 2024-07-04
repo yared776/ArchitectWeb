@@ -92,7 +92,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 size="small"
                 onClick={() => scrollToSection('highlights')}
               >
-                Highlights
+                Projects
               </Button>
               <Button
                 variant="text"
@@ -100,7 +100,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 size="small"
                 onClick={() => scrollToSection('pricing')}
               >
-                Pricing
+                Contact Us
               </Button>
               <Button
                 variant="text"
@@ -121,12 +121,7 @@ function AppAppBar({ mode, toggleColorMode }) {
             }}
           >
             <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
-            <Button color="primary" variant="text" size="small">
-              Sign in
-            </Button>
-            <Button color="primary" variant="contained" size="small">
-              Sign up
-            </Button>
+            
           </Box>
           <Box sx={{ display: { sm: 'flex', md: 'none' } }}>
             <IconButton aria-label="Menu button" onClick={toggleDrawer(true)}>
@@ -154,22 +149,12 @@ function AppAppBar({ mode, toggleColorMode }) {
                   Testimonials
                 </MenuItem>
                 <MenuItem onClick={() => scrollToSection('highlights')}>
-                  Highlights
+                  Projects
                 </MenuItem>
                 <MenuItem onClick={() => scrollToSection('pricing')}>
-                  Pricing
+                  Contact Us
                 </MenuItem>
-                <MenuItem onClick={() => scrollToSection('faq')}>FAQ</MenuItem>
-                <MenuItem>
-                  <Button color="primary" variant="contained" fullWidth>
-                    Sign up
-                  </Button>
-                </MenuItem>
-                <MenuItem>
-                  <Button color="primary" variant="outlined" fullWidth>
-                    Sign in
-                  </Button>
-                </MenuItem>
+               
               </Box>
             </Drawer>
           </Box>

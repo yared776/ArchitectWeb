@@ -73,7 +73,7 @@ export default function Hero() {
               fontSize: 'clamp(3rem, 10vw, 3.5rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
+            Transforming&nbsp;Vision&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -85,7 +85,31 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              To
+            </Typography>
+          </Typography>
+          <Typography
+            variant="h1"
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', sm: 'row' },
+              alignItems: 'center',
+              fontSize: 'clamp(3rem, 10vw, 3.5rem)',
+            }}
+          >
+            Into&nbsp;Reality&nbsp;
+            <Typography
+              component="span"
+              variant="h1"
+              sx={(theme) => ({
+                fontSize: 'inherit',
+                color: 'primary.main',
+                ...theme.applyStyles('dark', {
+                  color: 'primary.light',
+                }),
+              })}
+            >
+              G.M.R
             </Typography>
           </Typography>
           <Typography
@@ -95,9 +119,7 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            Discover exceptional architectural designs at G.M.R Architects Studio. Explore our portfolio featuring modern residences, urban office complexes, luxury villas, and more. Let our experienced team transform your vision into reality.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -105,34 +127,8 @@ export default function Hero() {
             useFlexGap
             sx={{ pt: 2, width: { xs: '100%', sm: 'auto' } }}
           >
-            <InputLabel htmlFor="email-hero" sx={visuallyHidden}>
-              Email
-            </InputLabel>
-            <TextField
-              id="email-hero"
-              hiddenLabel
-              size="small"
-              variant="outlined"
-              aria-label="Enter your email address"
-              placeholder="Your email address"
-              slotProps={{
-                htmlInput: {
-                  autoComplete: 'off',
-                  'aria-label': 'Enter your email address',
-                },
-              }}
-            />
-            <Button variant="contained" color="primary">
-              Start now
-            </Button>
           </Stack>
-          <Typography variant="caption" sx={{ textAlign: 'center' }}>
-            By clicking &quot;Start now&quot; you agree to our&nbsp;
-            <Link href="#" color="primary">
-              Terms & Conditions
-            </Link>
-            .
-          </Typography>
+          
         </Stack>
         <StyledBox id="image" />
       </Container>

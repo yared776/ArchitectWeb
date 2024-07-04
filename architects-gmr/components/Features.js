@@ -21,25 +21,25 @@ import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
 const items = [
   {
     icon: <ViewQuiltRoundedIcon />,
-    title: 'Dashboard',
+    title: 'Creative Designs',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
+      'Explore innovative and creative architectural designs that inspire.',
     imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
-    title: 'Mobile integration',
+    title: 'Client-Centered Approach',
     description:
-      'This item could provide information about the mobile app version of the product.',
+      'Ensure quality construction with our experienced team and modern techniques.',
     imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
   },
   {
     icon: <DevicesRoundedIcon />,
-    title: 'Available on all platforms',
+    title: 'Sustainable Practices',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
+      'Eco-friendly designs and sustainable materials for long-term benefits.',
     imageLight: 'url("/static/images/templates/templates-images/devices-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/devices-dark.png")',
   },

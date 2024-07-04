@@ -96,7 +96,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                 size="small"
                 onClick={() => scrollToSection('highlights')}
               >
-                Highlights
+                Projects
               </Button>
               <Button
                 variant="text"
@@ -104,7 +104,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                 size="small"
                 onClick={() => scrollToSection('pricing')}
               >
-                Pricing
+                Contact Us
               </Button>
               <Button
                 variant="text"
@@ -125,12 +125,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
             }}
           >
             <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
-            <Button color="primary" variant="text" size="small">
-              Sign in
-            </Button>
-            <Button color="primary" variant="contained" size="small">
-              Sign up
-            </Button>
+            
           </Box>
           <Box sx={{ display: { sm: 'flex', md: 'none' } }}>
             <IconButton aria-label="Menu button" onClick={toggleDrawer(true)}>
@@ -158,22 +153,12 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   Testimonials
                 </MenuItem>
                 <MenuItem onClick={() => scrollToSection('highlights')}>
-                  Highlights
+                  Projects
                 </MenuItem>
                 <MenuItem onClick={() => scrollToSection('pricing')}>
-                  Pricing
+                  Contact Us
                 </MenuItem>
-                <MenuItem onClick={() => scrollToSection('faq')}>FAQ</MenuItem>
-                <MenuItem>
-                  <Button color="primary" variant="contained" fullWidth>
-                    Sign up
-                  </Button>
-                </MenuItem>
-                <MenuItem>
-                  <Button color="primary" variant="outlined" fullWidth>
-                    Sign in
-                  </Button>
-                </MenuItem>
+               
               </Box>
             </Drawer>
           </Box>
